@@ -38,7 +38,7 @@ const Menu: React.FC = () => {
             <ul style={{ listStyleType: 'none' }}>
                 {menuItems.map((item) => (
                     <li key={item.id} style={{ marginBottom: '10px' }}>
-                        <strong>{item.name}</strong> - ${item.price.toFixed(2)}
+                        <strong>{item.name}</strong> - ${item.price}
                     </li>
                 ))}
             </ul>
