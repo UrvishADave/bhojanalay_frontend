@@ -20,9 +20,11 @@ export default function HomePage() {
   }, []);
 
   return (
-    <main className="flex min-h-screen flex-col items-center justify-center p-10">
-      <h1 className="text-4xl font-bold mb-4">Home Page</h1>
-      <p className="text-lg">{message}</p>
-    </main>
+    <main className="min-h-screen flex flex-col items-center justify-center bg-yellow-50 p-8">
+        <h1 className="text-5xl font-extrabold text-red-600 mb-6">{message}</h1>
+        <p className="text-lg text-gray-700 mb-4">
+          Fresh food, fast service, and delicious memories!
+        </p>
+      </main>
   );
 }
